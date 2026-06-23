@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <title>Ali</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Ali</h1>
+  <div class="header-right">
+    <button id="playlistPrev">⏮</button>
+    <button id="playlistPlayPause">▶</button>
+    <button id="playlistNext">⏭</button>
+    <button id="themeToggle">🌙</button>
+  </div>
+</header>
+
+<main>
+  <div id="dropZone">
+    <p>Drop MP3/WAV here or click to choose</p>
+    <input type="file" id="fileInput" accept="audio/mp3,audio/wav" multiple>
+  </div>
+  <div id="tracks"></div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
