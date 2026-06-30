@@ -1,2 +1,2 @@
 # Ali
-A passion project. Documentation coming soon. 
+A passion project. Nice. Try it out. 
